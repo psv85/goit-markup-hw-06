@@ -790,10 +790,8 @@ h3 {
 
   color: rgba(255, 255, 255, 0.6);
 }
-/**Для плейсхолдера стили
-font-family: Roboto;
-f
-**/
+
+/**Для плейсхолдера стили font-family: Roboto;**/
 
 .backdrop {
   position: fixed;
@@ -943,7 +941,6 @@ f
 }
 
 .form-field-agree {
-  display: flex;
   justify-content: start;
   align-items: center;
   width: 100%;
@@ -966,8 +963,8 @@ f
   height: 15px;
   border: 2px solid var(--dark-text-color);
   border-radius: 2px;
+  margin-right: 3px;
 }
-/* margin-right: 2px; */
 
 .form-field-input-agree:checked + .checked-icon {
   border-color: var(--accent-color);
@@ -979,13 +976,12 @@ f
 }
 
 .form-field-label-agree {
-  display: flex;
   align-items: center;
   padding-left: 8px;
 }
 
 .form-field-link {
-  margin-left: 5px;
+  margin-left: 3px;
 
   font-style: normal;
   font-weight: 500;
